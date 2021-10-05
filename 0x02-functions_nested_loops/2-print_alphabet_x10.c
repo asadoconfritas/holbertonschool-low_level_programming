@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *main - Holberton School project
+ *print_alphabet_x10 - Prints the alphabet 10 times
  *Return: end product
  **/
 
