@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include "2-main.c"
 
 /**
  *main - Holberton School project
