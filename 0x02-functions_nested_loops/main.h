@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.c"
+#include "1-main.c"
 
 void print_alphabet(void);
 
