@@ -3,7 +3,7 @@
 
 /**
  *_islower - checks for lowercase character
- *@c - char to return
+ *@c: char to return
  * Return: end product
  **/
 
