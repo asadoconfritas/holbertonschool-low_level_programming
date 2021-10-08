@@ -7,27 +7,29 @@
 
 int main(void)
 {
-	int i, a, b;
-
+	int i;
+	{
 	for (i = 1; i <= 100; i++)
 	{
-		a = 1;
-		b = (i < 100);
-		if ((i % 3) == 0)
+		if (((i % 3) || (i % 5)) == 0)
 		{
-			printf("Fizz");
-			a = 0;
+			printf("FizzBuzz");
 		}
 		if ((i % 5) == 0)
 		{
 			printf("Buzz");
-			a = 0;
 		}
-		if (a)
+		if ((i % 3) == 0)
+		{
+			printf("Fizz");
+		}
+		else
+		{
 			printf("%d", i);
-		if (b)
-			printf(" ");
+		}
+		printf(" ");
 	}
 	printf('\n');
+	}
 	return (0);
 }
