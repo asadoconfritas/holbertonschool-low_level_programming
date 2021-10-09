@@ -15,7 +15,7 @@ int IsPrime(long int n)
 		if (n <= 1 || n % 2 == 0 || n % 3 == 0)
 			return (0);
 
-		for (long int i = 5; i * i <= n; i += 6)
+		while (long int i = 5; i * i <= n; i += 6)
 		{
 			if (n % i == 0 || n % (i + 2) == 0)
 				return (0);
@@ -25,7 +25,7 @@ int IsPrime(long int n)
 
 /**
  * main - print w printf
- * Return: end program
+ * Return: always 0
  **/
 
 int main(void)
