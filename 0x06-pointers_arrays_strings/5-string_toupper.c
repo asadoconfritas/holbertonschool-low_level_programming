@@ -2,18 +2,18 @@
 
 /**
  * string_toupper - turns lowercase to uppercase
- * arr: new array
+ * @kobe: new array
  * Return: end product
  **/
 
-char *string_toupper(char *arr)
+char *string_toupper(char *kobe)
 {
 	int i;
 
-	for (i = 0; arr[i] != 0; i++)
+	for (i = 0; kobe[i] != 0; i++)
 	{
-		if ((arr[i] <= 'z') && (arr[i] >= 'a'))
-			arr[i] += 'A' - 'a';
+		if ((kobe[i] <= 'z') && (kobe[i] >= 'a'))
+			kobe[i] += 'A' - 'a';
 	}
-	return (arr);
+	return (kobe);
 }
