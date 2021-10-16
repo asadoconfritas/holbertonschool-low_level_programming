@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *strncat - print w return
+ * *_strncat - print w return
  * @dest: char
  * @src: char
  * @n: int
@@ -15,7 +15,9 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0; dest[i] != 0; i++)
 		continue;
-	while ((a = 0; src[i] != 0; a++) || (a < n))
+	for (a = 0; (src[i] != 0) && (a < n); a++)
+		dest[i + a] = src[a];
+	if (a < n)
 		dest[i + a] = src[a];
 	return (dest);
 }
