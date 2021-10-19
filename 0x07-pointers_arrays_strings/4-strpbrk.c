@@ -14,10 +14,10 @@ char *_strpbrk(char *s, char *accept)
 	char *poi;
 
 	i = 0;
-	j = 0;
 
 	while (*(s + i) != 0)
 	{
+		j = 0;
 		while (*(accept + j) != 0)
 		{
 			if (*(accept + j) == *(s + i))
@@ -27,7 +27,7 @@ char *_strpbrk(char *s, char *accept)
 			}
 			j++;
 		}
-	i++;
+		i++;
 	}
 	return (0);
 }
