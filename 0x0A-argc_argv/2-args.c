@@ -5,11 +5,12 @@
  * main - print all arguments
  * @argc: size of argv
  * @argv: array
+ * Return: end program
  **/
 
 int main(int argc, char **argv)
 {
 	while (argc--)
 		printf("%s\n", *argv++);
-	exit(EXIT_SUCCESS);
+	return (0);
 }
