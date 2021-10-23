@@ -1,0 +1,29 @@
+!<arch>
+0-isupper.c/    0           0     0     644     151       `
+#include main.h
+
+/**
+ * _isupper - prints w return
+ * @c: int
+ * Return: end program
+ **/
+
+int _isupper(int c)
+{
+	return ((c >= 'A') && (c <= 'Z'));
+}
+
+1-isdigit.c/    0           0     0     644     153       `
+#include "main.h"
+
+/**
+ * _isdigit - prints w return
+ * @c: int
+ * Return: end program
+ **/
+
+int _isdigit(int c)
+{
+	return ((c >= '0') && (c <= '9'));
+}
+
