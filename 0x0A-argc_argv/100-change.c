@@ -22,10 +22,11 @@ int main(int argc, char **argv)
 		un = (atoi(argv[1]) % 5) % 2;
 		cambio = vc + di + ci + ds + un;
 		printf("%d\n", cambio);
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
+		return (1);
 	}
-	return (0);
 }
