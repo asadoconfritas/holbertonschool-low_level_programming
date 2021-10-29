@@ -25,5 +25,6 @@ int *array_range(int min, int max)
 
 	for (a = 0; a < dif; a++)
 		*(p + a) = min + a;
+	*(p + a) = min + a;
 	return (p);
 }
