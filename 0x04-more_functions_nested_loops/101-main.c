@@ -1,21 +1,20 @@
 #include "main.h"
-#include <stdio.h>
-#include <limits.h>
+
 /**
  * main - check the code
  * Return: Always 0.
  */
 int main(void)
 {
-	print_number(INT_MIN);
+	print_number(98);
 	_putchar('\n');
-	print_number(INT_MAX);
+	print_number(402);
 	_putchar('\n');
-	printf("\nint_min: %d", INT_MIN);
+	print_number(1024);
 	_putchar('\n');
-	printf("int max: %d", INT_MAX);
+	print_number(0);
 	_putchar('\n');
-	print_number(-689796857);
+	print_number(-98);
 	_putchar('\n');
 	return (0);
 }
