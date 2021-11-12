@@ -29,11 +29,8 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (ptr);
 	}
 	sptr = *head;
-
 	while (sptr->next != NULL)
 		sptr = sptr->next;
-
-	ptr->next = ptr;
-
+	sptr->next = ptr;
 	return (ptr);
 }
