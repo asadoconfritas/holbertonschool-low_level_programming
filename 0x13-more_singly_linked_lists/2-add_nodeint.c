@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 #include <stdlib.h>
 /**
  * add_nodeint - adds a node at the beggining of a listint_t list
