@@ -8,7 +8,7 @@
  **/
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	unsigned int aux;
+	unsigned long int aux;
 
 	if (!ht || !key)
 		return (NULL);
